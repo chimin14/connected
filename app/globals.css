@@ -14,6 +14,35 @@
   }
 }
 
+/* For perspective */
+.perspective {
+  perspective: 1000px;
+}
+
+/* For child elements */
+.transform-style {
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+/* Rotating effect */
+.hover\:rotate-y-180:hover {
+  transform: rotateY(180deg);
+}
+
+/* Fixes for back face */
+.rotate-y-180 {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.hover\:rotate-y-180 {
+  backface-visibility: hidden;
+  transform: rotateY(0);
+}
+
+
+
 body {
   color: var(--foreground);
   background: var(--background);

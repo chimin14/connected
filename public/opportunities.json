@@ -1,0 +1,140 @@
+{
+    "Education": [
+      {
+        "title": "Facilitation For All",
+        "description": "A training course aimed at supporting youth workers and leaders in developing competencies for creating and facilitating inclusive activities for young people.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/e_1.jpg",
+        "link": "https://bravo-bih.com/open-call-for-training-course-facilitation-for-all-in-balatonszarszo-hungary/"
+      },
+      {
+        "title": "SPEAK-UP Youth Exchange",
+        "description": "An Erasmus+ Youth Exchange designed to empower youth through digital and visual storytelling, fostering leadership and intercultural skills.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/e_2.jpg",
+        "link": "https://bravo-bih.com/open-call-for-5-participants-for-youth-exchange-in-santanna-dalfaedo-italy/"
+      },
+      {
+        "title": "The Greench Training Course",
+        "description": "An educational mobility for youth workers focusing on sustainability, environmental consciousness, and green innovation.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/e_3.jpg",
+        "link": "https://bravo-bih.com/open-call-for-training-course-the-greench-in-castelletto-di-cuggiono-milan-italy/"
+      },
+      {
+        "title": "Digital Womunication",
+        "description": "A project aimed at improving the employability of women from rural backgrounds by equipping them with essential digital communication skills.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/e_4.jpg",
+        "link": "https://bravo-bih.com/current-projects/digital-womunication/"
+      },
+      {
+        "title": "VT4Y – Visual Thinking 4 Youth",
+        "description": "A project promoting visual thinking as a tool for youth to enhance creativity, problem-solving skills, and effective communication.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/e_5.jpg",
+        "link": "https://bravo-bih.com/current-projects/vt4y-visual-thinking-4-youth/"
+      },
+      {
+        "title": "Feminism is for Everybody",
+        "description": "The “Feminism is for Everybody” training course aims to empower youth workers from across Europe and neighboring regions to integrate feminist values and gender equality principles into their work with young people. ",
+        "buttonText": "Apply Now!",
+        "photo": "/images/opportunities/e_6.jpg",
+         "link": "https://bravo-bih.com/open-call-for-training-course-feminism-is-for-everybody-in-busteni-romania/"
+      }
+    ],
+    "Internships": [
+      {
+        "title": "Klimt02 Internship",
+        "description": "Klimt02 is offering students of Master's or Bachelor's degrees the opportunity to undertake internships for a period of 4 to 6 months.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/it_1.jpg",
+        "link": "https://klimt02.net/events/open-calls/open-call-internship-positions-klimt02"
+      },
+      {
+        "title": "Design Internship",
+        "description": "Join our creative team as a design intern.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/it_2.jpg",
+        "link": "https://bravo-bih.com/otvorene-prijave-za-placenu-praksu-za-5-mladih-zena-iz-bosne-i-hercegovine/"
+      },
+      {
+        "title": "Marketing Internship",
+        "description": "Help develop strategies with our marketing team.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/it_3.jpg",
+        "link": "https://bravo-bih.com/otvorene-prijave-za-placenu-praksu-za-5-mladih-zena-iz-bosne-i-hercegovine/"
+      },
+      {
+        "title": "Regional Internship Program",
+        "description": "Paid internship in civil society organizations from Western Balkans.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/it_4.jpg",
+        "link": "http://www.centaronline.org/en/event/13138/call-for-a-regional-internship-program-is-open"
+      },
+      {
+        "title": " Internship Program in Belgrade",
+        "description": "Breaking Borders, Building Bonds Cross-Border Internship Program. We're thrilled to introduce a groundbreaking opportunity!",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/it_5.jpg",
+        "link": "https://yihr-ks.org/open-call-internship-program-in-belgrade/"
+      },
+      {
+        "title": "Human Resources Internship",
+        "description": "Assist in recruitment, training, and employee development.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/it_6.jpg",
+        "link": "https://bravo-bih.com/otvorene-prijave-za-placenu-praksu-za-5-mladih-zena-iz-bosne-i-hercegovine/"
+      }
+    ],
+    "Open Calls for Students": [
+      {
+        "title": "Hackathon 2024",
+        "description": "Participate in a global hackathon event.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/oc_1.jpg",
+        "link": "https://bravo-bih.com/open-call-for-5-participants-for-training-course-in-sarajevo-bosnia-and-herzegovina/"
+      },
+      {
+        "title": "Startup Bootcamp",
+        "description": "Learn how to pitch your ideas to investors.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/oc_2.jpg",
+        "link": "https://bravo-bih.com/open-call-for-three-participants-for-training-course-enriching-the-outreach-of-youth-organizations-in-slanic-moldova-romania/"
+      },
+      {
+        "title": "Student Research Grant",
+        "description": "Apply for funding for your academic research.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/oc_3.jpg",
+        "link": "https://bravo-bih.com/open-call-for-5-participants-for-training-of-trainers-in-vlore-albania/"
+      }
+    ],
+    "Volunteering": [
+      {
+        "title": "Community Clean-Up",
+        "description": "Help clean and beautify our local community.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/v_1.jpg",
+        "link": "https://bravo-bih.com/volunteering-community-clean-up/"
+      },
+      {
+        "title": "Teaching Program",
+        "description": "Teach underprivileged children in remote areas.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/v_2.jpg",
+        "link": "https://bravo-bih.com/volunteering-teaching-program/"
+      },
+      {
+        "title": "Environmental Project",
+        "description": "Work with a team to promote sustainability.",
+        "buttonText": "Apply now!",
+        "photo": "/images/opportunities/v_3.jpg",
+        "link": "https://bravo-bih.com/volunteering-environmental-project/"
+      }
+    ]
+  }
+  
+
+
+ 
