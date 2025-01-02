@@ -4,14 +4,19 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="absolute w-full top-0 z-10 ">
+    <header className="absolute w-full top-0 z-20">
       {/* Overlay with Shade */}
       <div className="bg-footerCyan bg-opacity-80 absolute inset-0"></div>
 
       {/* Header Content */}
       <div className="relative flex justify-between items-center px-12 py-6">
         <div className="flex items-center">
-          <h1 className="text-xl font-bold text-white">connectED</h1>
+          {/* Make connectED clickable */}
+          <Link href="/">
+            <h1 className="text-xl font-bold text-white cursor-pointer">
+              connectED
+            </h1>
+          </Link>
         </div>
         <nav>
           <ul className="flex space-x-8 items-center">
@@ -30,11 +35,7 @@ const Header = () => {
                 Team
               </Link>
             </li>
-            <li>
-              <Link href="/reviews" className="text-white hover:text-blue-300">
-                Reviews
-              </Link>
-            </li>
+            
           </ul>
         </nav>
         <Link href="/signin" className="text-white hover:text-blue-300">

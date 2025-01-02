@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="mx-auto flex flex-col md:flex-row items-center justify-between px-16 py-4">
         {/* Logo Section */}
         <Link href="/" className="flex items-center mb-4 md:mb-0">
-          <img src="/images/logo.svg" className="h-12 mr-3" alt="connectED Logo" />
+          <img src="/images/home/logo.svg" className="h-12 mr-3" alt="connectED Logo" />
           <span className="text-2xl font-semibold whitespace-nowrap dark:text-white">connectED</span>
         </Link>
       </div>

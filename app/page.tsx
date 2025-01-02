@@ -1,17 +1,19 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Footer from './components/Footer';
-import Header from './components/Header'
+import Header from './components/Header';
+import Reviews from './components/Reviews';
+
  
 
 export default function HomePage() {
   return (
     <div>
       {/* Fullscreen Background Video */}
-      <div className="relative h-screen">
+      <div className="relative min-h-[80vh]">
         <div className="absolute inset-0 bg-black bg-opacity-40 -z-10"></div>
         <video autoPlay loop muted className="absolute inset-0 w-full h-full object-cover -z-20">
-          <source src="/images/logo3.mp4" type="video/mp4" />
+          <source src="/images/home/0102.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -21,10 +23,10 @@ export default function HomePage() {
         {/* Hero Section Content */}
         <section className="flex flex-wrap md:flex-nowrap items-center justify-between h-full px-8 text-white">
           {/* Downward Arrow */}
-  <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+  <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2">
     <Link href="#mission-section">
       <Image
-        src="/images/arrowd.svg"
+        src="/images/home/arrowd.svg"
         alt="Downward Arrow"
         width={50}
         height={50}
@@ -66,7 +68,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-24 items-center px-6">
           <div>
             <Image
-              src="/images/say.jpg"
+              src="/images/home/say.jpg"
               alt="Person Image"
               width={500}
               height={500}
@@ -106,7 +108,7 @@ export default function HomePage() {
       {/* First Image with Overlay */}
       <div className="relative w-full md:w-[570px] h-[295px]">
         <Image
-          src="/images/call0.png"
+          src="/images/home/call0.png"
           alt="Check more open calls!"
           layout="intrinsic"
           width={570}
@@ -129,7 +131,7 @@ export default function HomePage() {
       {/* Second Image */}
       <div className="relative w-full md:w-[570px] h-[255px]">
         <Image
-          src="/images/call1.jpg"
+          src="/images/home/call1.jpg"
           alt="INDUSAC Open Call for Students"
           layout="intrinsic"
           width={570}
@@ -144,7 +146,7 @@ export default function HomePage() {
   {/* Third Image */}
   <div className="relative flex-grow-0 flex-shrink-0 w-full md:w-[370px] h-[255px]">
     <Image
-      src="/images/call2.png"
+      src="/images/home/call2.png"
       alt="Call for Participation"
       layout="intrinsic"
       width={370}
@@ -168,7 +170,7 @@ export default function HomePage() {
   {/* Fifth Image */}
   <div className="relative flex-grow-0 flex-shrink-0 w-full md:w-[370px] h-[255px]">
     <Image
-      src="/images/call2.png"
+      src="/images/home/call2.png"
       alt="Open Call for Participants"
       layout="intrinsic"
       width={370}
@@ -183,7 +185,7 @@ export default function HomePage() {
   {/* Arrow Button */}
   <div className="absolute right-4 top-1/2 transform -translate-y-1/2 w-[50px] h-[50px] cursor-pointer">
     <Image
-      src="/images/arrowr.svg"
+      src="/images/home/arrowr.svg"
       alt="Next"
       layout="intrinsic"
       width={50}
@@ -200,7 +202,7 @@ export default function HomePage() {
   </div>
 </section>
 
-
+<Reviews/>
 <Footer />
 
     </div>

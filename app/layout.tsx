@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import Head from "next/head";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -25,10 +26,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        {/* Ionicons CDN */}
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/ionicons.min.css"
+        />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-
         {/* Main Content */}
         <main>{children}</main>
       </body>
